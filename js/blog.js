@@ -20,7 +20,6 @@ function addData(event) {
   var gambar = URL.createObjectURL(image[0]);
 
   // Checkbox
-  // Reff: https://www.geeksforgeeks.org/how-to-get-all-checked-values-of-checkbox-in-javascript/
   let input_tech = document.getElementsByClassName("input_tech");
   let technologies = [];
   for (let index = 0; index < input_tech.length; index++) {
